@@ -2,7 +2,7 @@
 scaping the date, drug and contact information from clinicaltrial.gov website.
 
 
-##Leukemia was used as a demo
+## Leukemia was used as a demo
 The start time distribution for completed and recruiting trials are presented. And the ratio of drug and biological treatment was shown in the bar chart.
 ![figure_1](https://cloud.githubusercontent.com/assets/19654472/24596048/193aa4ac-180a-11e7-8d22-80bf9ef6b9f3.png)
 
