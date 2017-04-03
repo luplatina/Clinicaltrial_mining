@@ -1,17 +1,19 @@
 # Clinicaltrial_mining
 scaping the date, drug and contact information from clinicaltrial.gov website.
 
-## overview
+## Overview
 This project has three steps, 
-* 1)scraping data from https://clinicaltrials.gov and store the data as csv; 
-* 2)allow user to extract target disease and use class to store the data; 
-* 3)visualization.  
+* 1)Scraping data from https://clinicaltrials.gov and store the data as csv; 
+* 2)Allow user to extract target disease and use class to store the data; 
+* 3)Aisualization.  
 
 ## Leukemia was used as a demo
+A step by step series to extract the info of certain disease is to use a terminal, run as follow : 
+
 The start time distribution for completed and recruiting trials are presented. And the ratio of drug and biological treatment was shown in the bar chart.
 ![figure_1](https://cloud.githubusercontent.com/assets/19654472/24596048/193aa4ac-180a-11e7-8d22-80bf9ef6b9f3.png)
 
-## contact information for Leukemia recruiting trials
+## Contact information for Leukemia recruiting trials
 
 NCT00167219 
  Kim Nelson, RN   Masonic Cancer Center, University of Minnesota 
