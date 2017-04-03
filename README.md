@@ -1,6 +1,8 @@
 # Clinicaltrial_mining
 scaping the date, drug and contact information from clinicaltrial.gov website.
 
+## overview
+This project has three steps, 1)scraping data from https://clinicaltrials.gov and store the data as csv; 2)allow user to extract target disease and use class to store the data; 3) visualization.  
 
 ## Leukemia was used as a demo
 The start time distribution for completed and recruiting trials are presented. And the ratio of drug and biological treatment was shown in the bar chart.
