@@ -7,6 +7,9 @@ This project has three steps,
 * 2)Allow user to extract target disease and use class to store the data; 
 * 3)Aisualization.  
 
+I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as class attributes: nct_id, trial_status, start_date.
+Trials with different status like completed and recruiting have different features we are intereted in. For completed trials, their treatment method information, like drug and biological treatment, can be interesting to check. For recruiting trials, their contact information can be very important for patient need helps from new treatment. Therefore two subclasses have been defined, completed trial class and clinical trial class. They hierachical design give completed trials class extra attribute treatment method, and give recruiting trials class extra attrtibute contact information. 
+
 ## Leukemia was used as a demo
 A step by step series to extract the info of certain disease is to use a terminal, run as follow : 
 
