@@ -8,6 +8,7 @@ This project has three steps,
 * 3)Aisualization.  
 
 I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as 
+
 -- trial class attributes: 
 * nct_id, 
 * trial_status, 
