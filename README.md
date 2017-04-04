@@ -7,7 +7,8 @@ This project has three steps,
 * 2)Allow user to extract target disease and use class to store the data; 
 * 3)Aisualization.  
 
-I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as -- trial class attributes: 
+I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as 
+-- trial class attributes: 
 * nct_id, 
 * trial_status, 
 * start_date,
@@ -17,6 +18,7 @@ Trials with different status like completed and recruiting have different featur
 
 --completed trial class attributes:
 * treatment method (drug or biological)
+
 --recruiting trial class attributes:
 * contact info
 
