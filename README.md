@@ -5,7 +5,7 @@ scaping the date, drug and contact information from clinicaltrial.gov website.
 This project has three steps, 
 * 1)Scraping data from https://clinicaltrials.gov and store the data as csv; 
 * 2)Allow user to extract target disease and use class to store the data; 
-* 3)Aisualization.  
+* 3)Visualization.  
 
 I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as 
 
