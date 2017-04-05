@@ -7,6 +7,18 @@ This project has three steps,
 * 2)Allow user to extract target disease and use class to store the data; 
 * 3)Visualization.  
 
+## How to use the module package
+Download the module package. then go to the directory in a terminal. Open a python command shell. test code is shown as follow:
+```
+from trialmining import loadtrialDF
+from trialmining import trial_struct
+trial_C, trial_R = loadtrialDF.TrialDF_general('leukemia') #imput target disease, 'leukemia' is an example
+loadtrialDF.Trial_visual(trial_C,trial_R) #visualize the trial info, output looks like demostration 1.
+loadtrialDF.printcontact(trial_R,5) #output recruiting trial info, output looks like demostration 2. 
+
+```
+The output should look like files shown in the demostration later.  
+
 I use class to store the clinical trial information. The general features present in all clinical trials can be summarized as 
 
 -- trial class attributes: 
@@ -24,13 +36,13 @@ Trials with different status like completed and recruiting have different featur
 * contact info
 
 
-## Leukemia was used as a demo
+## Demostration 1: Leukemia trials information
 A step by step series to extract the info of certain disease is to use a terminal, run as follow : 
 
 The start time distribution for completed and recruiting trials are presented. And the ratio of drug and biological treatment was shown in the bar chart.
 ![figure_1](https://cloud.githubusercontent.com/assets/19654472/24596048/193aa4ac-180a-11e7-8d22-80bf9ef6b9f3.png)
 
-## Contact information for Leukemia recruiting trials
+## Demostration 2: Recruiting Leukemia trials contact information 
 
 NCT00167219 
  Kim Nelson, RN   Masonic Cancer Center, University of Minnesota 
