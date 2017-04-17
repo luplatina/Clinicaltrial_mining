@@ -1,11 +1,12 @@
 # Clinicaltrial_mining
-scaping the date, drug and contact information from clinicaltrial.gov website.
+Scaping the date, drug and contact information from clinicaltrial.gov website.
 
 ## Overview
 This project has three steps, 
 * 1)Scraping data from https://clinicaltrials.gov and store the data as csv; 
 * 2)Allow user to extract target disease and use class to store the data; 
 * 3)Visualization.  
+A web app [trialminer](http://trialminer.site) can perform the same functions with a convient user interface. 
 
 ## How to use the module package
 Download the module package. then go to the directory in a terminal. Open a python command shell. test code is shown as follow:
